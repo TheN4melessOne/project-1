@@ -8,13 +8,14 @@ html, body, header, footer, aside, article {
   html {
     font-size: 20px;
     background-color: #8cd3dd;
+    height: 100vh;
   }
   
   body {
     background-color: black;
     display: flex;
     flex-direction: column;
-    height: 100hv;
+    height: 100%;
   }
 
   iframe{
@@ -31,7 +32,7 @@ html, body, header, footer, aside, article {
   }
   
   header iframe{
-    background-color: rgb(181, 181, 181);
+    background-color: rgb(29, 194, 26);
   }
 
   main {
@@ -47,7 +48,7 @@ html, body, header, footer, aside, article {
   }
   
   article iframe{
-    background-color: rgb(181, 181, 181);
+    background-color: rgb(198, 173, 33)
   }
 
   aside{
@@ -56,7 +57,7 @@ html, body, header, footer, aside, article {
   }
 
   aside iframe{
-    background-color: rgb(181, 181, 181);
+    background-color: rgb(35, 21, 156)
   }
 
   footer {
@@ -65,5 +66,5 @@ html, body, header, footer, aside, article {
   }
 
   footer iframe{
-    background-color: rgb(181, 181, 181);
+    background-color: rgb(184, 37, 37);
   }
