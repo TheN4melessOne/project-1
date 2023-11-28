@@ -1,70 +1,42 @@
-/* || General setup */
 
-html, body, header, footer, aside, article {
-    margin: 0;
-    padding: 0;
-  }
-  
-  html {
-    font-size: 20px;
+html{
+  font-size: 2em;
     background-color: #8cd3dd;
-    height: 100vh;
-  }
-  
-  body {
-    background-color: black;
-    display: flex;
-    flex-direction: column;
-    height: 100%;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
   }
 
   iframe{
-    margin: 0;
-    padding: 0;
+    border: 0px;
     width: 100%;
     height: 100%;
-    border: 0;
+    min-width: 0px;
+    min-height: 0px;
+    padding: 0px;
+    margin: 0px;
   }
 
   header{
-    background-color: rgb(208, 203, 77);
-    flex:3;
-  }
-  
-  header iframe{
-    background-color: rgb(29, 194, 26);
+    background-color: rgb(134, 102, 183);
+    height: 15vh;
   }
 
   main {
     display: flex;
     flex-direction: row;
-    align-items: stretch;
-    flex:15;
+    height: 75vh;
   }
 
   article{
     width: 80%;
-    background-color: rgb(119, 202, 174);
-  }
-  
-  article iframe{
-    background-color: rgb(198, 173, 33)
   }
 
   aside{
     width: 20%;
-    background-color: rgb(186, 94, 94);
-  }
-
-  aside iframe{
-    background-color: rgb(35, 21, 156)
+    background-color: rgb(210, 187, 201);
   }
 
   footer {
     background-color: rgb(134, 102, 183);
-    flex: 2;
-  }
-
-  footer iframe{
-    background-color: rgb(184, 37, 37);
+    height: 10vh;
   }
